@@ -3840,6 +3840,16 @@ LatexCmds.product = bind(SummationNotation,'\\prod ','&prod;');
 LatexCmds.coprod =
 LatexCmds.coproduct = bind(SummationNotation,'\\coprod ','&#8720;');
 
+LatexCmds.oint = bind(SummationNotation, '\\oint ', '&#8750;');
+LatexCmds.iint = bind(SummationNotation, '\\iint ', '&#8748;');
+LatexCmds.iiint = bind(SummationNotation, '\\iiint ', '&#8749;');
+LatexCmds.intclockwise = bind(SummationNotation, '\\intclockwise ', '&#8753;');
+LatexCmds.intctrclockwise = bind(SummationNotation, '\\intctrclockwise ', '&#10769;');
+LatexCmds.varointclockwise = bind(SummationNotation, '\\varointclockwise ', '&#8754;');
+LatexCmds.ointctrclockwise = bind(SummationNotation, '\\ointctrclockwise ', '&#8755;');
+LatexCmds.oiint = bind(SummationNotation, '\\oiint ', '&#8751;');
+LatexCmds.oiiint = bind(SummationNotation, '\\oiiint ', '&#8752;');
+
 LatexCmds['\u222b'] =
 LatexCmds['int'] =
 LatexCmds.integral = P(SummationNotation, function(_, super_) {
