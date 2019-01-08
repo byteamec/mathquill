@@ -200,7 +200,6 @@ LatexCmds.parallelogram = bind(VanillaSymbol, '\\parallelogram ', '&#9649;');
 LatexCmds.square = bind(VanillaSymbol, '\\square ', '&#11036;');
 
 //variable-sized
-LatexCmds.oint = bind(VanillaSymbol, '\\oint ', '&#8750;');
 LatexCmds.bigcap = bind(VanillaSymbol, '\\bigcap ', '&#8745;');
 LatexCmds.bigcup = bind(VanillaSymbol, '\\bigcup ', '&#8746;');
 LatexCmds.bigsqcup = bind(VanillaSymbol, '\\bigsqcup ', '&#8852;');
